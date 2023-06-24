@@ -1,5 +1,10 @@
+import IntroductionSection from "../../components/server/section/IntroductionSection";
 import styles from "./page.module.css";
 
 export default function Home() {
-  return <main className={styles.main}></main>;
+  return (
+    <div className={styles.container}>
+      <IntroductionSection></IntroductionSection>
+    </div>
+  );
 }

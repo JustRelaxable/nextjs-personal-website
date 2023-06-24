@@ -1,4 +1,5 @@
-import Navbar from "../../components/server/Navbar";
+import PagePadding from "../../components/server/layout/PagePadding";
+import Navbar from "../../components/server/navigation-bar/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar></Navbar>
-        {children}
+        <PagePadding>{children}</PagePadding>
       </body>
     </html>
   );

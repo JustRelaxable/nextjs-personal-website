@@ -1,0 +1,27 @@
+.container {
+  border-style: none;
+  border-radius: 0.9rem;
+  height: 7.4rem;
+  width: 29.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 0 2rem;
+  background-color: var(--color-primary);
+  border: 0.3rem solid var(--color-primary);
+}
+
+.container > a {
+  color: white;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.031em;
+  text-decoration: none;
+}
+
+.container:hover {
+  color: white;
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--shadow-primary);
+}
