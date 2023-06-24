@@ -1,0 +1,23 @@
+.icon {
+  stroke: var(--color-primary);
+  flood-color: beige;
+  height: 100%;
+  width: 7.5rem;
+}
+
+.icon > defs > filter > feFlood {
+  flood-color: var(--color-primary);
+}
+
+.ts-icon-a {
+  fill: none;
+}
+.ts-icon-b {
+  filter: url(#ts-icon-e);
+}
+.ts-icon-c {
+  filter: url(#ts-icon-c);
+}
+.ts-icon-d {
+  filter: url(#ts-icon-a);
+}
