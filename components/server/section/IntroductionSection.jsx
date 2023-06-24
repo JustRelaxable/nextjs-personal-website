@@ -6,7 +6,14 @@ import PagePadding from "../layout/PagePadding";
 export default function IntroductionSection() {
   return (
     <section className={styles.background}>
-      <PagePadding>
+      <PagePadding
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          minHeight: "100vh",
+        }}
+      >
         <section className={styles.container}>
           <div className={styles.content}>
             <div className={styles.first}>
