@@ -2,10 +2,20 @@
   --color-background: #2a2b2a;
   --color-primary: #0acdff;
   --color-secondary: #ff4365;
+  --text-primary: #fff8e8;
+  --shadow-primary: rgba(0, 0, 0, 0.2);
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-background);
 }
