@@ -1,9 +1,10 @@
 import PagePadding from "../../components/server/layout/PagePadding";
 import Navbar from "../../components/server/navigation-bar/Navbar";
+import SideLinks from "../../components/server/sidelinks/SideLinks";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Rubik } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Rubik({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Taha Sokmen - Personal Website",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar></Navbar>
+        <SideLinks></SideLinks>
         {children}
       </body>
     </html>

@@ -1,11 +1,11 @@
 import Link from "next/link";
 import styles from "./ProjecctCategoryLink.module.css";
 import Image from "next/image";
-export default function ProjecctCategoryLink({ children, color, imgSrc }) {
+export default function ProjecctCategoryLink({ children, imgSrc }) {
   return (
     <div className={styles.container}>
       <Link href="/">
-        <div className={styles.colorOverlay} style={{ backgroundColor: color }}>
+        <div className={`${styles.colorOverlay}`}>
           <p className={styles.text}>{children}</p>
         </div>
         <Image

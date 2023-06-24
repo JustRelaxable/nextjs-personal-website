@@ -2,10 +2,9 @@
   display: block;
   width: 100%;
   position: relative;
-}
-
-.container:hover .colorOverlay {
-  background-color: transparent !important;
+  height: 32rem;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .colorOverlay {
@@ -17,11 +16,43 @@
   height: 100%;
   z-index: 9;
   transition: background-color 0.4s ease;
+  padding: 2rem;
+  background-color: #1d1d1d7d;
 }
 
 .text {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 3rem;
+  transition: text-shadow 0.4s ease;
+  text-align: center;
+}
+
+.red {
+  background-color: #bd304a7d;
+}
+
+.blue {
+  background-color: #305ebd7d;
+}
+
+.green {
+  background-color: #30bd587d;
+}
+
+.purple {
+  background-color: #9830bd7d;
+}
+
+.container img {
+  transition: scale 0.4s ease;
+}
+
+.container:hover img {
+  scale: 1.2;
+}
+
+.container:hover .text {
+  text-shadow: 1px 2px 10px var(--shadow-primary);
 }
