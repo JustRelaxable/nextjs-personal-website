@@ -1,3 +1,9 @@
+:root {
+  --color-background: #2a2b2a;
+  --color-primary: #0acdff;
+  --color-secondary: #ff4365;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
