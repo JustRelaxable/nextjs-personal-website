@@ -1,5 +1,6 @@
 :root {
   --color-background: #2a2b2a;
+  --color-background-light: #3f403f;
   --color-primary: #0acdff;
   --color-secondary: #ff4365;
   --text-primary: #fff8e8;
@@ -18,4 +19,5 @@ html {
 
 body {
   background-color: var(--color-background);
+  color: white;
 }

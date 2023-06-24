@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.colorOverlay {
+  background-color: #0aceff44;
+  transition: background-color 0.4s ease;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+.photoContainer {
+  position: relative;
+}
+
+.photoContainer:hover > .colorOverlay {
+  background-color: transparent;
+}
+
+.aboutMeText {
+  font-size: 1.6rem;
+  letter-spacing: -0.031em;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}

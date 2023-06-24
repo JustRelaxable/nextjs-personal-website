@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 1.8rem;
+  margin-bottom: 2.4rem;
+  align-items: center;
+}
+
+.header {
+  font-size: 6.1rem;
+  font-weight: 300;
+  text-shadow: 0px 0px 12px var(--color-primary);
+  color: var(--color-primary);
+}
+
+.seperator {
+  margin: 1rem 0 0 0;
+  width: 15rem;
+  height: 0.3rem;
+  background-color: var(--color-primary);
+  box-shadow: 0 0 12px var(--color-primary);
+}
