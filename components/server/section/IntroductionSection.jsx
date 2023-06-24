@@ -22,7 +22,7 @@ export default function IntroductionSection() {
                 <br />
                 <span className={styles.name}>Taha Sökmen</span>
                 <br />
-                <span className={styles.work}>I am a developer</span>
+                <span className={styles.work}>I am a developer.</span>
               </p>
             </div>
             <div className={styles.second}>

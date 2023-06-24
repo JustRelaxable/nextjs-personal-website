@@ -14,7 +14,7 @@ export default function AboutMeSection() {
             <Image
               src={photo}
               alt="Photo of myself on dinner"
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "100%" }}
               className={styles.photo}
             ></Image>
           </div>
