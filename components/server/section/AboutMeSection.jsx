@@ -25,8 +25,8 @@ export default function AboutMeSection() {
               About Me
             </SectionHeader>
             <PrimaryParagraph className={styles.aboutMeText}>
-              I'm Taha Sokmen. I love coding, creating something, seeing the
-              code I write working makes me happy. I have gained a lot of
+              I&apos;m Taha Sokmen. I love coding, creating something, seeing
+              the code I write working makes me happy. I have gained a lot of
               experience in application development, from desktop applications
               to mobile applications.
               <br />
