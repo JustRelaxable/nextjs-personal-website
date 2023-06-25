@@ -1,3 +1,21 @@
 .container {
   padding: 15rem 13.7rem 15rem 13.7rem;
 }
+
+@media screen and (max-width: 930px) {
+  .container {
+    padding: 10rem 10.7rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 5rem 6.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 5rem 2.7rem;
+  }
+}

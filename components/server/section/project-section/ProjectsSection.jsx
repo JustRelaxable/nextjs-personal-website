@@ -1,3 +1,4 @@
+"use client";
 import SectionHeader from "../../header/SectionHeader";
 import PagePadding from "../../layout/PagePadding";
 import styles from "./ProjectSection.module.css";
@@ -6,11 +7,18 @@ import unityCategory from "../../../../public/category-thumbnails/unity-category
 import desktopCategory from "../../../../public/category-thumbnails/desktop-category.jpg";
 import mobileCategory from "../../../../public/category-thumbnails/mobile-category.jpg";
 import webCategory from "../../../../public/category-thumbnails/web-category.jpg";
+import { motion } from "framer-motion";
+import variants from "../../../../sectionVariants";
 export default function ProjectSection() {
   return (
     <section className={styles.background}>
       <PagePadding>
-        <div className={styles.content}>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={variants}
+          className={styles.content}
+        >
           <SectionHeader
             doubleSideSeperator={true}
             containerStyle={{ marginBottom: "3.4rem" }}
@@ -31,7 +39,7 @@ export default function ProjectSection() {
               Desktop App Projects
             </ProjecctCategoryLink>
           </div>
-        </div>
+        </motion.div>
       </PagePadding>
     </section>
   );

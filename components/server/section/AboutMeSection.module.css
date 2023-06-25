@@ -38,3 +38,24 @@
 .aboutMeText {
   margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 1150px) {
+  .container {
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .photoContainer {
+    display: none;
+  }
+}

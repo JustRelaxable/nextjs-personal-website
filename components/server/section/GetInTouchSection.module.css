@@ -9,3 +9,27 @@
   padding: 0 24rem;
   gap: 20px;
 }
+
+@media screen and (max-width: 1300px) {
+  .container {
+    padding: 0 18rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .container {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 6rem;
+  }
+}

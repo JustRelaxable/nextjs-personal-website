@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./TSLogo.module.css";
 export default function TSLogo() {
   return (
-    <Link href="/">
+    <Link href="/" className={styles.link}>
       <svg
         className={styles.icon}
         width="65.031"

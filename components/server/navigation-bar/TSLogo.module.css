@@ -2,7 +2,7 @@
   stroke: var(--color-primary);
   flood-color: beige;
   height: 100%;
-  width: 7.5rem;
+  width: 100%;
 }
 
 .icon > defs > filter > feFlood {

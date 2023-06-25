@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import styles from "./AboutMeSection.module.css";
 import photo from "../../../public/about-me-photo.jpg";
@@ -5,11 +6,18 @@ import SectionHeader from "../header/SectionHeader";
 import LinkButtonPrimary from "../button/link/LinkButtonPrimary";
 import PagePadding from "../layout/PagePadding";
 import PrimaryParagraph from "../text/PrimaryParagraph";
+import { motion } from "framer-motion";
+import variants from "../../../sectionVariants";
 export default function AboutMeSection() {
   return (
     <section className={styles.background}>
       <PagePadding>
-        <div className={styles.container}>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={variants}
+          className={styles.container}
+        >
           <div className={styles.photoContainer}>
             <div className={styles.colorOverlay}></div>
             <Image
@@ -45,7 +53,7 @@ export default function AboutMeSection() {
               Check out my CV
             </LinkButtonPrimary>
           </div>
-        </div>
+        </motion.div>
       </PagePadding>
     </section>
   );

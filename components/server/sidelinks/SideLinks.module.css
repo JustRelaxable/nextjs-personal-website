@@ -28,3 +28,20 @@
   height: 10rem;
   background-color: var(--color-primary);
 }
+
+@media screen and (max-width: 1150px) {
+  .icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .bottomSeperator {
+    height: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: none;
+  }
+}

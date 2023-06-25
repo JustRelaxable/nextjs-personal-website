@@ -23,3 +23,18 @@
   transform: scale(1.05);
   box-shadow: 0 0 20px var(--shadow-primary);
 }
+
+@media screen and (max-width: 1300px) {
+  .container {
+    height: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    height: 5.4rem;
+    width: 25rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+}
