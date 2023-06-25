@@ -1,5 +1,7 @@
 .container {
-  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 0.9rem;
   height: 7.4rem;
   width: 29.5rem;
@@ -7,10 +9,6 @@
   cursor: pointer;
   padding: 0 2rem;
   background-color: var(--color-primary);
-  border: 0.3rem solid var(--color-primary);
-}
-
-.container > a {
   color: white;
   font-family: inherit;
   font-size: 2rem;

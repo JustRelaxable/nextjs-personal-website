@@ -6,10 +6,8 @@ export default function Navbar() {
     <nav className={styles.content}>
       <TSLogo></TSLogo>
       <nav className={styles.linkContainer}>
-        <Link href="#">About Me</Link>
-        <Link href="#">Toolset</Link>
-        <Link href="#">Contact</Link>
-        <Link href="#">CV</Link>
+        <Link href="#">Projects</Link>
+        <Link href="/CV-Taha-Sokmen.pdf">CV</Link>
       </nav>
     </nav>
   );

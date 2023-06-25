@@ -11,7 +11,8 @@ export default function ProjecctCategoryLink({ children, imgSrc }) {
         <Image
           src={imgSrc}
           alt="Category Image"
-          style={{ width: "100%", objectFit: "cover" }}
+          style={{ width: "100%", objectFit: "cover", height: "auto" }}
+          placeholder="blur"
         ></Image>
       </Link>
     </div>

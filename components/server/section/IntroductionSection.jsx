@@ -3,6 +3,7 @@ import styles from "./IntroductionSection.module.css";
 import pp from "../../../public/pp.jpg";
 import Image from "next/image";
 import PagePadding from "../layout/PagePadding";
+import PrimaryParagraph from "../text/PrimaryParagraph";
 export default function IntroductionSection() {
   return (
     <section className={styles.background}>
@@ -31,17 +32,21 @@ export default function IntroductionSection() {
                 alt="Profile Picture"
                 style={{ width: "100%", height: "auto" }}
                 className={styles.pp}
+                placeholder="blur"
               ></Image>
             </div>
             <div className={styles.third}>
-              <p className={styles.description}>
+              <PrimaryParagraph className={styles.description}>
                 I have always been a fast learner and new emerging technologies
                 have always intrigued me. I have the mindset of an engineer and
                 I have a strong analytical side.
-              </p>
+              </PrimaryParagraph>
             </div>
             <div className={styles.fourth}>
-              <LinkButtonPrimary href="/">
+              <LinkButtonPrimary
+                href="https://github.com/JustRelaxable"
+                target="_blank"
+              >
                 Check out my Github!
               </LinkButtonPrimary>
             </div>

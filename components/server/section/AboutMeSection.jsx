@@ -4,6 +4,7 @@ import photo from "../../../public/about-me-photo.jpg";
 import SectionHeader from "../header/SectionHeader";
 import LinkButtonPrimary from "../button/link/LinkButtonPrimary";
 import PagePadding from "../layout/PagePadding";
+import PrimaryParagraph from "../text/PrimaryParagraph";
 export default function AboutMeSection() {
   return (
     <section className={styles.background}>
@@ -16,11 +17,12 @@ export default function AboutMeSection() {
               alt="Photo of myself on dinner"
               style={{ width: "100%" }}
               className={styles.photo}
+              placeholder="blur"
             ></Image>
           </div>
           <div className={styles.textContainer}>
             <SectionHeader>About Me</SectionHeader>
-            <p className={styles.aboutMeText}>
+            <PrimaryParagraph className={styles.aboutMeText}>
               I'm Taha Sokmen. I love coding, creating something, seeing the
               code I write working makes me happy. I have gained a lot of
               experience in application development, from desktop applications
@@ -38,8 +40,10 @@ export default function AboutMeSection() {
               to me. At the same time, I can write smart contracts through
               solidity. I have many projects that I have developed and worked
               on, you can find them on my github page.
-            </p>
-            <LinkButtonPrimary href="/">Check out my CV</LinkButtonPrimary>
+            </PrimaryParagraph>
+            <LinkButtonPrimary href="/CV-Taha-Sokmen.pdf" target="_blank">
+              Check out my CV
+            </LinkButtonPrimary>
           </div>
         </div>
       </PagePadding>

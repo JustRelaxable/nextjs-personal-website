@@ -1,5 +1,6 @@
 import PagePadding from "../../components/server/layout/PagePadding";
 import Navbar from "../../components/server/navigation-bar/Navbar";
+import FooterSection from "../../components/server/section/FooterSection";
 import SideLinks from "../../components/server/sidelinks/SideLinks";
 import "./globals.css";
 import { Inter, Rubik } from "next/font/google";
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
         <SideLinks></SideLinks>
         {children}
+        <FooterSection></FooterSection>
       </body>
     </html>
   );

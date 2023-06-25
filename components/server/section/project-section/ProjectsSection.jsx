@@ -11,7 +11,12 @@ export default function ProjectSection() {
     <section className={styles.background}>
       <PagePadding>
         <div className={styles.content}>
-          <SectionHeader doubleSideSeperator={true}>Projects</SectionHeader>
+          <SectionHeader
+            doubleSideSeperator={true}
+            containerStyle={{ marginBottom: "3.4rem" }}
+          >
+            Projects
+          </SectionHeader>
           <div className={styles.grid}>
             <ProjecctCategoryLink imgSrc={unityCategory}>
               Unity Game Projects
