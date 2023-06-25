@@ -3,8 +3,8 @@ import styles from "./ProjecctCategoryLink.module.css";
 import Image from "next/image";
 export default function ProjecctCategoryLink({ children, imgSrc }) {
   return (
-    <div className={styles.container}>
-      <Link href="/">
+    <Link href="/">
+      <div className={styles.container}>
         <div className={`${styles.colorOverlay}`}>
           <p className={styles.text}>{children}</p>
         </div>
@@ -14,7 +14,7 @@ export default function ProjecctCategoryLink({ children, imgSrc }) {
           style={{ width: "100%", objectFit: "cover", height: "auto" }}
           placeholder="blur"
         ></Image>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }

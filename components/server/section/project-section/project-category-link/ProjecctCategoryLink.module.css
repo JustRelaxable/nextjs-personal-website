@@ -29,22 +29,11 @@
   text-align: center;
 }
 
-.red {
-  background-color: #bd304a7d;
+.test {
+  display: block;
+  overflow: hidden;
+  width: 100%;
 }
-
-.blue {
-  background-color: #305ebd7d;
-}
-
-.green {
-  background-color: #30bd587d;
-}
-
-.purple {
-  background-color: #9830bd7d;
-}
-
 .container img {
   transition: scale 0.4s ease;
 }
@@ -64,5 +53,17 @@
 @media screen and (max-width: 1150px) {
   .text {
     font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .text {
+    font-size: 2.5rem;
   }
 }

@@ -1,12 +1,9 @@
-"use client";
 import LinkButtonPrimary from "../button/link/LinkButtonPrimary";
 import styles from "./IntroductionSection.module.css";
 import pp from "../../../public/pp.jpg";
 import Image from "next/image";
 import PagePadding from "../layout/PagePadding";
 import PrimaryParagraph from "../text/PrimaryParagraph";
-import { motion } from "framer-motion";
-import variants from "../../../sectionVariants";
 export default function IntroductionSection() {
   return (
     <section className={styles.background}>
@@ -20,12 +17,7 @@ export default function IntroductionSection() {
         customClass={styles.pagePaddingBottom}
       >
         <section className={styles.container}>
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            variants={variants}
-            className={styles.content}
-          >
+          <div className={styles.content}>
             <div className={styles.first}>
               <p>
                 <span className={styles.greeting}>Hello, I am</span>
@@ -59,7 +51,7 @@ export default function IntroductionSection() {
                 Check out my Github!
               </LinkButtonPrimary>
             </div>
-          </motion.div>
+          </div>
         </section>
       </PagePadding>
     </section>

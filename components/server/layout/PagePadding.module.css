@@ -19,3 +19,9 @@
     padding: 5rem 2.7rem;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .container {
+    padding: 3rem 1.7rem;
+  }
+}

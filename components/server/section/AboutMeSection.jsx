@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import styles from "./AboutMeSection.module.css";
 import photo from "../../../public/about-me-photo.jpg";
@@ -6,18 +5,11 @@ import SectionHeader from "../header/SectionHeader";
 import LinkButtonPrimary from "../button/link/LinkButtonPrimary";
 import PagePadding from "../layout/PagePadding";
 import PrimaryParagraph from "../text/PrimaryParagraph";
-import { motion } from "framer-motion";
-import variants from "../../../sectionVariants";
 export default function AboutMeSection() {
   return (
     <section className={styles.background}>
       <PagePadding>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          variants={variants}
-          className={styles.container}
-        >
+        <div className={styles.container}>
           <div className={styles.photoContainer}>
             <div className={styles.colorOverlay}></div>
             <Image
@@ -29,7 +21,9 @@ export default function AboutMeSection() {
             ></Image>
           </div>
           <div className={styles.textContainer}>
-            <SectionHeader>About Me</SectionHeader>
+            <SectionHeader containerStyle={{ justifyContent: "flex-start" }}>
+              About Me
+            </SectionHeader>
             <PrimaryParagraph className={styles.aboutMeText}>
               I'm Taha Sokmen. I love coding, creating something, seeing the
               code I write working makes me happy. I have gained a lot of
@@ -53,7 +47,7 @@ export default function AboutMeSection() {
               Check out my CV
             </LinkButtonPrimary>
           </div>
-        </motion.div>
+        </div>
       </PagePadding>
     </section>
   );

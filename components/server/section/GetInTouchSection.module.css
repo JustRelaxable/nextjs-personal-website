@@ -6,30 +6,39 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0 24rem;
   gap: 20px;
 }
 
+.text {
+  padding: 0 24rem;
+}
+
 @media screen and (max-width: 1300px) {
-  .container {
+  .text {
     padding: 0 18rem;
   }
 }
 
 @media screen and (max-width: 1150px) {
-  .container {
+  .text {
     padding: 0 10rem;
   }
 }
 
 @media screen and (max-width: 930px) {
-  .container {
+  .text {
     gap: 5px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .text {
     padding: 0 6rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .text {
+    padding: 0;
   }
 }

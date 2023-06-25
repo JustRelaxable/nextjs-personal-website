@@ -17,3 +17,9 @@
     font-size: 1.4rem;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .text {
+    font-size: 1.6rem;
+  }
+}
