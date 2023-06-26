@@ -1,0 +1,14 @@
+.button {
+  border-style: none;
+  background-color: transparent;
+}
+
+.icon {
+  fill: white;
+  height: 2.4rem;
+  transition: fill 0.4s ease;
+}
+
+.button:hover > .icon {
+  fill: var(--color-primary);
+}

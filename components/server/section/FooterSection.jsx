@@ -4,9 +4,12 @@ export default function FooterSection() {
   return (
     <footer className={styles.container}>
       <p className={styles.text}>Designed & Built by Taha Sokmen</p>
-      <Link href="https://github.com/JustRelaxable/nextjs-personal-website">
+      <a
+        href="https://github.com/JustRelaxable/nextjs-personal-website"
+        target="_blank"
+      >
         Check out on Github
-      </Link>
+      </a>
     </footer>
   );
 }

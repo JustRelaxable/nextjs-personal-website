@@ -31,9 +31,25 @@
   color: var(--color-primary);
 }
 
+.mobileMenuButton {
+  display: none;
+}
+
 @media screen and (max-width: 930px) {
   .content {
     height: 6rem;
     padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .content {
+    padding: 1rem 2rem;
+  }
+  .mobileMenuButton {
+    display: block;
+  }
+  .linkContainer {
+    display: none;
   }
 }

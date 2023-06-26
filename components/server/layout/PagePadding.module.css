@@ -1,14 +1,32 @@
 .container {
-  padding: 15rem 13.7rem 15rem 13.7rem;
+  padding: 15rem 33.7rem;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1740px) {
   .container {
-    padding: 10rem 10.7rem;
+    padding: 15rem 25.7rem;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1600px) {
+  .container {
+    padding: 15rem 18.7rem;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .container {
+    padding: 15rem 12.7rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    padding: 7rem 10.7rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
   .container {
     padding: 5rem 6.7rem;
   }

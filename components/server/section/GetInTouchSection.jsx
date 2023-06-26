@@ -8,7 +8,12 @@ export default function GetInTouchSection() {
     <section className={styles.background}>
       <PagePadding>
         <div className={styles.container}>
-          <SectionHeader doubleSideSeperator={true}>Get in Touch</SectionHeader>
+          <SectionHeader
+            doubleSideSeperator={true}
+            containerStyle={{ marginBottom: "0" }}
+          >
+            Get in Touch
+          </SectionHeader>
           <PrimaryParagraph className={styles.text}>
             Although I’m not currently looking for any new opportunities, my
             inbox is always open. Whether you have a question or just want to
