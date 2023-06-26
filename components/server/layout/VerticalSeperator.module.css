@@ -1,0 +1,8 @@
+.seperator {
+  margin: 6rem auto;
+  width: 100%;
+  max-width: 80rem;
+  height: 0.3rem;
+  background-color: var(--color-primary);
+  box-shadow: 0 0 12px var(--color-primary);
+}

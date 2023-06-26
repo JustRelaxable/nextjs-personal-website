@@ -34,7 +34,7 @@ export default function ImageShowcase({ imageData }) {
           {imageData.map((o, i) => {
             return (
               <Image
-                key={o.path}
+                key={o.path.src}
                 src={o.path}
                 alt={o.caption}
                 style={{
@@ -42,6 +42,7 @@ export default function ImageShowcase({ imageData }) {
                   height: "auto",
                   objectFit: "cover",
                 }}
+                placeholder="blur"
               ></Image>
             );
           })}
