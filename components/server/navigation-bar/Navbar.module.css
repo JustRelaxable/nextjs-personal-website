@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  display: none;
 }
 
 .linkContainer > a {
@@ -47,7 +48,6 @@
     padding: 1rem 2rem;
   }
   .mobileMenuButton {
-    display: block;
   }
   .linkContainer {
     display: none;

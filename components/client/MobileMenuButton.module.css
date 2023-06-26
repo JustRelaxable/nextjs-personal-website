@@ -1,6 +1,7 @@
 .button {
   border-style: none;
   background-color: transparent;
+  display: none;
 }
 
 .icon {
