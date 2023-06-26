@@ -45,6 +45,7 @@ export default function ImageShowcase({
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
+                  left: `${i * 100}%`,
                 }}
                 placeholder="blur"
               ></Image>
