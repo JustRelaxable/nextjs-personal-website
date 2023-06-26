@@ -8,14 +8,23 @@ import emily2 from "../../../../public/project-screenshots/unity/emilys-adventur
 import emily3 from "../../../../public/project-screenshots/unity/emilys-adventures/emily-adventures-3.webp";
 import emily4 from "../../../../public/project-screenshots/unity/emilys-adventures/emily-adventures-4.webp";
 import emily5 from "../../../../public/project-screenshots/unity/emilys-adventures/emily-adventures-5.webp";
+
+import airport1 from "../../../../public/project-screenshots/unity/airport-check/airport-check-1.webp";
+import airport2 from "../../../../public/project-screenshots/unity/airport-check/airport-check-2.webp";
+import airport3 from "../../../../public/project-screenshots/unity/airport-check/airport-check-3.webp";
+import airport4 from "../../../../public/project-screenshots/unity/airport-check/airport-check-4.webp";
+
 import ProjectDescription from "../../../../components/server/projects-page/ProjectDescription";
 import VerticalSeperator from "../../../../components/server/layout/VerticalSeperator";
+import DesktopProject from "../../../../components/server/projects-page/DesktopProject";
+import MobileProject from "../../../../components/server/projects-page/MobileProject";
 export default function UnityProjectsPage() {
   return (
     <section className={styles.background}>
       <PagePadding>
         <SectionHeader doubleSideSeperator={true}>Unity Projects</SectionHeader>
-        <ImageShowcase
+        <DesktopProject
+          headerText={"Emily's Adventures"}
           imageData={[
             { path: emily1, caption: "Emily's backyard" },
             { path: emily2, caption: "Giant's living room" },
@@ -23,8 +32,7 @@ export default function UnityProjectsPage() {
             { path: emily4, caption: "Piano puzzle" },
             { path: emily5, caption: "Graveyard area of Piggy's Island" },
           ]}
-        ></ImageShowcase>
-        <ProjectDescription headerText={"Emily's Adventures"}>
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
           vitae turpis massa sed elementum. Purus ut faucibus pulvinar elementum
@@ -38,11 +46,11 @@ export default function UnityProjectsPage() {
           lacus laoreet non curabitur gravida arcu. Sed euismod nisi porta lorem
           mollis aliquam. Donec enim diam vulputate ut. Sed viverra tellus in
           hac habitasse platea dictumst.
-        </ProjectDescription>
+        </DesktopProject>
 
         <VerticalSeperator></VerticalSeperator>
-
-        <ImageShowcase
+        <DesktopProject
+          headerText={"Emily's Adventures"}
           imageData={[
             { path: emily1, caption: "Emily's backyard" },
             { path: emily2, caption: "Giant's living room" },
@@ -50,8 +58,7 @@ export default function UnityProjectsPage() {
             { path: emily4, caption: "Piano puzzle" },
             { path: emily5, caption: "Graveyard area of Piggy's Island" },
           ]}
-        ></ImageShowcase>
-        <ProjectDescription headerText={"Emily's Adventures"}>
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
           vitae turpis massa sed elementum. Purus ut faucibus pulvinar elementum
@@ -65,7 +72,31 @@ export default function UnityProjectsPage() {
           lacus laoreet non curabitur gravida arcu. Sed euismod nisi porta lorem
           mollis aliquam. Donec enim diam vulputate ut. Sed viverra tellus in
           hac habitasse platea dictumst.
-        </ProjectDescription>
+        </DesktopProject>
+        <VerticalSeperator></VerticalSeperator>
+        <MobileProject
+          headerText={"Emily's Adventures"}
+          imageData={[
+            { path: airport1, caption: "Emily's backyard" },
+            { path: airport2, caption: "Emily's backyard" },
+            { path: airport3, caption: "Emily's backyard" },
+            { path: airport4, caption: "Emily's backyard" },
+          ]}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
+          vitae turpis massa sed elementum. Purus ut faucibus pulvinar elementum
+          integer enim neque. Sit amet aliquam id diam maecenas ultricies mi
+          eget mauris. Est ante in nibh mauris. Elementum curabitur vitae nunc
+          sed velit. Vulputate odio ut enim blandit volutpat maecenas volutpat.
+          <br />
+          Enim sit amet venenatis urna cursus eget nunc scelerisque. Adipiscing
+          elit pellentesque habitant morbi tristique senectus et netus et. Magna
+          ac placerat vestibulum lectus mauris ultrices eros in. Id volutpat
+          lacus laoreet non curabitur gravida arcu. Sed euismod nisi porta lorem
+          mollis aliquam. Donec enim diam vulputate ut. Sed viverra tellus in
+          hac habitasse platea dictumst.
+        </MobileProject>
       </PagePadding>
     </section>
   );

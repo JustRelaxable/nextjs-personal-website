@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.imageShowcaseContainer {
+  width: 100%;
+}
+
+.imageShowcaseControlContainer {
+  aspect-ratio: 333/589;
+}
+
+@media screen and (max-width: 930px) {
+  .container {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .imageShowcaseContainer {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .imageShowcaseContainer {
+    width: 100%;
+  }
+}

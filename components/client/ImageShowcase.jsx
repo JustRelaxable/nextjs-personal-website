@@ -3,7 +3,11 @@ import Image from "next/image";
 import styles from "./ImageShowcase.module.css";
 import { useEffect, useState } from "react";
 import PrimaryParagraph from "../server/text/PrimaryParagraph";
-export default function ImageShowcase({ imageData }) {
+export default function ImageShowcase({
+  imageData,
+  containerClass,
+  controlContainerClass,
+}) {
   const [imageIndex, setImageIndex] = useState(0);
 
   function nextImage() {
@@ -17,8 +21,8 @@ export default function ImageShowcase({ imageData }) {
   }
 
   return (
-    <div className={styles.container}>
-      <div className={styles.controlContainer}>
+    <div className={`${styles.container} ${containerClass}`}>
+      <div className={`${styles.controlContainer} ${controlContainerClass}`}>
         <button
           className={`${styles.arrow} ${styles.left}`}
           onClick={previousImage}

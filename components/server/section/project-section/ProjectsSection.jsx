@@ -18,16 +18,28 @@ export default function ProjectSection() {
             Projects
           </SectionHeader>
           <div className={styles.grid}>
-            <ProjecctCategoryLink imgSrc={unityCategory}>
+            <ProjecctCategoryLink
+              imgSrc={unityCategory}
+              href={"/projects/unity"}
+            >
               Unity Game Projects
             </ProjecctCategoryLink>
-            <ProjecctCategoryLink imgSrc={webCategory}>
+            <ProjecctCategoryLink
+              imgSrc={webCategory}
+              href={"/projects/frontend"}
+            >
               Frontend Projects
             </ProjecctCategoryLink>
-            <ProjecctCategoryLink imgSrc={mobileCategory}>
+            <ProjecctCategoryLink
+              imgSrc={mobileCategory}
+              href={"/projects/mobile"}
+            >
               Mobile App Projects
             </ProjecctCategoryLink>
-            <ProjecctCategoryLink imgSrc={desktopCategory}>
+            <ProjecctCategoryLink
+              imgSrc={desktopCategory}
+              href={"/projects/desktop"}
+            >
               Desktop App Projects
             </ProjecctCategoryLink>
           </div>
