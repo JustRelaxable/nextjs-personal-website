@@ -22,6 +22,11 @@ import sticker4 from "../../../../public/project-screenshots/frontend/sticker-sh
 import sticker5 from "../../../../public/project-screenshots/frontend/sticker-shop/sticker-shop-5.png";
 import sticker6 from "../../../../public/project-screenshots/frontend/sticker-shop/sticker-shop-6.png";
 
+import moria1 from "../../../../public/project-screenshots/frontend/moria-health-tourism/moria-1.png";
+import moria2 from "../../../../public/project-screenshots/frontend/moria-health-tourism/moria-2.png";
+import moria3 from "../../../../public/project-screenshots/frontend/moria-health-tourism/moria-3.png";
+import moria4 from "../../../../public/project-screenshots/frontend/moria-health-tourism/moria-4.png";
+
 export default function FrontendProjectsPage() {
   return (
     <section>
@@ -108,6 +113,37 @@ export default function FrontendProjectsPage() {
             },
             { path: sticker5, caption: "Cart page" },
             { path: sticker6, caption: "Mobile menu screen" },
+          ]}
+          customAspectRatio={{ aspectRatio: 47 / 100 }}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
+          vitae turpis massa sed elementum. Purus ut faucibus pulvinar elementum
+          integer enim neque. Sit amet aliquam id diam maecenas ultricies mi
+          eget mauris. Est ante in nibh mauris. Elementum curabitur vitae nunc
+          sed velit. Vulputate odio ut enim blandit volutpat maecenas volutpat.
+          <br />
+          Enim sit amet venenatis urna cursus eget nunc scelerisque. Adipiscing
+          elit pellentesque habitant morbi tristique senectus et netus et. Magna
+          ac placerat vestibulum lectus mauris ultrices eros in. Id volutpat
+          lacus laoreet non curabitur gravida arcu. Sed euismod nisi porta lorem
+          mollis aliquam. Donec enim diam vulputate ut. Sed viverra tellus in
+          hac habitasse platea dictumst.
+        </MobileProject>
+        <VerticalSeperator></VerticalSeperator>
+        <MobileProject
+          headerText={"Moria Health Tourism"}
+          imageData={[
+            {
+              path: moria1,
+              caption: "Main page",
+            },
+            { path: moria2, caption: "Why moria section" },
+            { path: moria3, caption: "Latest blog posts section" },
+            {
+              path: moria4,
+              caption: "Footer section",
+            },
           ]}
           customAspectRatio={{ aspectRatio: 47 / 100 }}
         >
