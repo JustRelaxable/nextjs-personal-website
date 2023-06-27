@@ -11,7 +11,7 @@
   box-shadow: 0 0 5px var(--color-primary);
   border-radius: 5px;
   overflow: hidden;
-  aspect-ratio: 2;
+  aspect-ratio: 16/9;
 }
 
 .imageContainer {
