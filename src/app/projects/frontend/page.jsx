@@ -49,7 +49,7 @@ export default function FrontendProjectsPage() {
             },
             { path: movies5, caption: "Page 2" },
           ]}
-          customAspectRatio={{ aspectRatio: 47 / 100 }}
+          customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
@@ -81,7 +81,7 @@ export default function FrontendProjectsPage() {
             },
             { path: nasa5, caption: "Requesting another random event" },
           ]}
-          customAspectRatio={{ aspectRatio: 47 / 100 }}
+          customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
@@ -114,7 +114,7 @@ export default function FrontendProjectsPage() {
             { path: sticker5, caption: "Cart page" },
             { path: sticker6, caption: "Mobile menu screen" },
           ]}
-          customAspectRatio={{ aspectRatio: 47 / 100 }}
+          customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
@@ -145,7 +145,7 @@ export default function FrontendProjectsPage() {
               caption: "Footer section",
             },
           ]}
-          customAspectRatio={{ aspectRatio: 47 / 100 }}
+          customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
