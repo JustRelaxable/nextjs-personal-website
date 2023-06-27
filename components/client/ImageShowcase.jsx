@@ -7,6 +7,7 @@ export default function ImageShowcase({
   imageData,
   containerClass,
   controlContainerClass,
+  customAspectRatio,
 }) {
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -22,7 +23,10 @@ export default function ImageShowcase({
 
   return (
     <div className={`${styles.container} ${containerClass}`}>
-      <div className={`${styles.controlContainer} ${controlContainerClass}`}>
+      <div
+        className={`${styles.controlContainer} ${controlContainerClass}`}
+        style={customAspectRatio}
+      >
         <button
           className={`${styles.arrow} ${styles.left}`}
           onClick={previousImage}
