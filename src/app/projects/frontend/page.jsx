@@ -147,13 +147,14 @@ export default function FrontendProjectsPage() {
         >
           The Moria Health Tourism is a health tourism website focuses on
           providing information and promoting various medical tourism services
-          and destinations. The website's homepage serves as an introduction and
-          provides an overview of the services and destinations offered. It
-          features high-quality images, captivating headlines, and concise
-          descriptions to capture visitors' attention. The website will have a
-          dedicated contact section where potential patients can reach out for
-          inquiries, request more information, or initiate the booking process.
-          This includes a contact form, phone numbers, email addresses.
+          and destinations. The website&apos;s homepage serves as an
+          introduction and provides an overview of the services and destinations
+          offered. It features high-quality images, captivating headlines, and
+          concise descriptions to capture visitors&apos; attention. The website
+          will have a dedicated contact section where potential patients can
+          reach out for inquiries, request more information, or initiate the
+          booking process. This includes a contact form, phone numbers, email
+          addresses.
         </MobileProject>
       </PagePadding>
     </section>

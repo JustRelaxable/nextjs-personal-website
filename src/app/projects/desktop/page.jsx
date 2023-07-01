@@ -28,8 +28,8 @@ export default function DesktopProjectsPage() {
           ]}
         >
           The SimpleChat is a chat application developed with the aim of
-          creating a secure chatting platform for a company's employees. The
-          solution consists of three core projects: a client-side desktop
+          creating a secure chatting platform for a company&apos;s employees.
+          The solution consists of three core projects: a client-side desktop
           application, a server-side console application, and web services API
           for backend operations. The application provides a secure environment
           for employees to communicate with each other in real-time. Messages

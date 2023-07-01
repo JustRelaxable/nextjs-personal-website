@@ -117,13 +117,14 @@ export default function UnityProjectsPage() {
           across the coast, they must strategically build their deck by
           collecting powerful cards and utilizing three unique resources. With a
           combination of strategy and luck, players can aim to demolish their
-          opponent's castle and establish themselves as the ultimate conqueror
-          of the island. The game features an engaging and free-to-play
-          experience, stunning graphics, real-time multiplayer duels, and an
-          array of surprises including dragons and various attacks. By upgrading
-          their resources, players unlock new powers. Sand Wars provides an
-          immersive card-based combat experience that challenges players to
-          adapt to different strategies and emerge victorious.
+          opponent&apos;s castle and establish themselves as the ultimate
+          conqueror of the island. The game features an engaging and
+          free-to-play experience, stunning graphics, real-time multiplayer
+          duels, and an array of surprises including dragons and various
+          attacks. By upgrading their resources, players unlock new powers. Sand
+          Wars provides an immersive card-based combat experience that
+          challenges players to adapt to different strategies and emerge
+          victorious.
         </DesktopProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -203,15 +204,15 @@ export default function UnityProjectsPage() {
             { path: goal3, caption: "Collecting money" },
           ]}
         >
-          Goal'em All is an action-packed game where your ultimate objective is
-          to defeat every opponent in your path using your soccer ball skills.
-          Get ready to showcase your ball control and precision as you take on
-          challengers from all directions. To maximize your chances of success,
-          aim to strike the barrels scattered throughout the game. These barrels
-          hold valuable currency that can be used to enhance your gameplay
-          experience. By collecting money from hitting the barrels, you can
-          unlock upgrades, power-ups, and other exciting features to aid you in
-          your quest for victory.
+          Goal&apos;em All is an action-packed game where your ultimate
+          objective is to defeat every opponent in your path using your soccer
+          ball skills. Get ready to showcase your ball control and precision as
+          you take on challengers from all directions. To maximize your chances
+          of success, aim to strike the barrels scattered throughout the game.
+          These barrels hold valuable currency that can be used to enhance your
+          gameplay experience. By collecting money from hitting the barrels, you
+          can unlock upgrades, power-ups, and other exciting features to aid you
+          in your quest for victory.
         </MobileProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -248,13 +249,13 @@ export default function UnityProjectsPage() {
         >
           VR Hunt offers an exhilarating virtual reality experience where
           players can immerse themselves in the thrill of shotgun shooting.
-          Whether you're honing your skills or challenging your friends, this
-          shotgun sports game has something for everyone. The game provides a
-          diverse range of hunting experiences, such as chicken hunt & cow hunt.
-          No matter the season, the virtual hunting grounds are always open,
-          allowing you to embark on exciting hunting adventures at any time.
-          Take aim, feel the weight of the shotgun, and unleash your shooting
-          prowess.
+          Whether you&apos;re honing your skills or challenging your friends,
+          this shotgun sports game has something for everyone. The game provides
+          a diverse range of hunting experiences, such as chicken hunt & cow
+          hunt. No matter the season, the virtual hunting grounds are always
+          open, allowing you to embark on exciting hunting adventures at any
+          time. Take aim, feel the weight of the shotgun, and unleash your
+          shooting prowess.
         </DesktopProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -277,8 +278,8 @@ export default function UnityProjectsPage() {
           From calculating resource production rates to determining the most
           efficient upgrades, the calculator app empowers you to make informed
           decisions that will propel your empire to new heights. Gain valuable
-          insights into the game's mechanics, plan your actions wisely, and stay
-          one step ahead of your competitors.
+          insights into the game&apos;s mechanics, plan your actions wisely, and
+          stay one step ahead of your competitors.
         </MobileProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -312,12 +313,13 @@ export default function UnityProjectsPage() {
             { path: awakening4, caption: "Prototype clan wars screen" },
           ]}
         >
-          The Awakening is the culmination of over a year's worth of dedicated
-          work, resulting in an immersive mobile multiplayer idle game. Designed
-          with a client-server based structure, this project draws inspiration
-          from popular web-based games such as Darkorbit, Ikariam, and Facebook
-          farming games. However, it aims to provide a simplified and easily
-          understandable gameplay experience suitable for mobile devices.
+          The Awakening is the culmination of over a year&apos;s worth of
+          dedicated work, resulting in an immersive mobile multiplayer idle
+          game. Designed with a client-server based structure, this project
+          draws inspiration from popular web-based games such as Darkorbit,
+          Ikariam, and Facebook farming games. However, it aims to provide a
+          simplified and easily understandable gameplay experience suitable for
+          mobile devices.
         </MobileProject>
         <VerticalSeperator></VerticalSeperator>
 
@@ -332,8 +334,8 @@ export default function UnityProjectsPage() {
           Crypto Run is an immersive mobile game that grants you the chance to
           unleash your skills and talents while exploring the intricate realm of
           digital currencies. Prepare yourself for an exciting adventure where
-          you'll become a master of crypto trading, acquiring the ability to
-          identify profitable investment opportunities. From assessing the
+          you&apos;ll become a master of crypto trading, acquiring the ability
+          to identify profitable investment opportunities. From assessing the
           potential risks and rewards of diverse crypto assets to making
           strategic decisions about promotions, your expertise and knowledge
           will be put to the test. Embark on an exhilarating challenge as you
@@ -371,12 +373,12 @@ export default function UnityProjectsPage() {
           Flappy Bird Remake brings back the addictive gameplay and nostalgic
           charm of the classic mobile game. Get ready to test your reflexes and
           embark on an exhilarating journey through challenging obstacles. In
-          this remake of the beloved game, you'll guide a bird through a series
-          of narrow gaps between pipes. Tap the screen to make the bird flap its
-          wings and navigate its way to victory. Be careful though, as even the
-          slightest misstep can lead to a collision and game over! Each tap
-          requires precise timing and coordination, as you strive to achieve the
-          highest score and claim your spot on the leaderboard.
+          this remake of the beloved game, you&apos;ll guide a bird through a
+          series of narrow gaps between pipes. Tap the screen to make the bird
+          flap its wings and navigate its way to victory. Be careful though, as
+          even the slightest misstep can lead to a collision and game over! Each
+          tap requires precise timing and coordination, as you strive to achieve
+          the highest score and claim your spot on the leaderboard.
         </MobileProject>
         <VerticalSeperator></VerticalSeperator>
 
@@ -396,8 +398,8 @@ export default function UnityProjectsPage() {
           gameplay, Twisted Dungeon provides a delightful and engaging
           experience. Each level requires careful planning and precise execution
           to successfully navigate the maze and secure the orbs. As the controls
-          reverse, you'll need to adapt your thinking and approach, adding an
-          extra layer of difficulty to the game.
+          reverse, you&apos;ll need to adapt your thinking and approach, adding
+          an extra layer of difficulty to the game.
         </DesktopProject>
       </PagePadding>
     </section>
