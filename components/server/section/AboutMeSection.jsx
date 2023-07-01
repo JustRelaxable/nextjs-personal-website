@@ -25,23 +25,27 @@ export default function AboutMeSection() {
               About Me
             </SectionHeader>
             <PrimaryParagraph className={styles.aboutMeText}>
-              I&apos;m Taha Sokmen. I love coding, creating something, seeing
-              the code I write working makes me happy. I have gained a lot of
-              experience in application development, from desktop applications
-              to mobile applications.
-              <br />
-              <br />I use the Unity game engine to develop games, so I developed
-              myself in the C# programming language. In addition to developing
-              games, I can develop desktop applications and backend applications
-              using C#.
+              My name is Taha Sökmen, and I am a passionate developer who finds
+              joy in creating and witnessing the functionality of the code I
+              write. With a strong background in development, I have gained
+              extensive experience in building a wide range of applications and
+              games, ranging from desktop to mobile platforms.
               <br />
               <br />
-              Recently I have focused myself on web design and am learning
-              HTML/CSS. I am very interested in blockchain technology as
-              decentralized applications and web experience are very interesting
-              to me. At the same time, I can write smart contracts through
-              solidity. I have many projects that I have developed and worked
-              on, you can find them on my github page.
+              While I initially specialized in using the Unity game engine for
+              game development, which allowed me to master the C# programming
+              language, I have since broadened my skill set to include web
+              design. During my internship, I had the opportunity to work
+              specifically in web design, honing my skills in creating visually
+              appealing and user-friendly websites. I am proficient in HTML and
+              CSS, and I continue to explore and expand my knowledge in this
+              area.
+              <br />
+              <br />
+              Combining my passion for coding, my proficiency in various
+              programming languages, and my curiosity for emerging technologies,
+              I am always seeking new opportunities to contribute to innovative
+              projects and expand my skill set.
             </PrimaryParagraph>
             <LinkButtonPrimary href="/CV-Taha-Sokmen.pdf" target="_blank">
               Check out my CV

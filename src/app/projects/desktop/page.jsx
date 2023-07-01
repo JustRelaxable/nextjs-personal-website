@@ -27,19 +27,21 @@ export default function DesktopProjectsPage() {
             { path: simple3, caption: "Chatting" },
           ]}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
-          vitae turpis massa sed elementum. Purus ut faucibus pulvinar elementum
-          integer enim neque. Sit amet aliquam id diam maecenas ultricies mi
-          eget mauris. Est ante in nibh mauris. Elementum curabitur vitae nunc
-          sed velit. Vulputate odio ut enim blandit volutpat maecenas volutpat.
-          <br />
-          Enim sit amet venenatis urna cursus eget nunc scelerisque. Adipiscing
-          elit pellentesque habitant morbi tristique senectus et netus et. Magna
-          ac placerat vestibulum lectus mauris ultrices eros in. Id volutpat
-          lacus laoreet non curabitur gravida arcu. Sed euismod nisi porta lorem
-          mollis aliquam. Donec enim diam vulputate ut. Sed viverra tellus in
-          hac habitasse platea dictumst.
+          The "SimpleChat" is a chat application developed with the aim of
+          creating a secure chatting platform for a company's employees. The
+          solution consists of three core projects: a client-side desktop
+          application, a server-side console application, and web services API
+          for backend operations. The application provides a secure environment
+          for employees to communicate with each other in real-time. Messages
+          are encrypted to protect sensitive information and ensure
+          confidentiality. To create a new account, an employee must already be
+          present in the database. This ensures that only authorized individuals
+          within the company can sign up for the application. When an employee
+          registers, a password hash is created and stored for their account,
+          enhancing security. The client-side component is a desktop application
+          that employees use to access and interact with the chat system. It
+          provides a user-friendly interface for sending and receiving messages,
+          managing contacts, and accessing other application features.
         </DesktopProject>
       </PagePadding>
     </section>

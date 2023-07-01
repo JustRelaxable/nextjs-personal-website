@@ -22,19 +22,20 @@ export default function MobileProjectsPage() {
           ]}
           customAspectRatio={{ aspectRatio: 47 / 100 }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo in
-          vitae turpis massa sed elementum. Purus ut faucibus pulvinar elementum
-          integer enim neque. Sit amet aliquam id diam maecenas ultricies mi
-          eget mauris. Est ante in nibh mauris. Elementum curabitur vitae nunc
-          sed velit. Vulputate odio ut enim blandit volutpat maecenas volutpat.
-          <br />
-          Enim sit amet venenatis urna cursus eget nunc scelerisque. Adipiscing
-          elit pellentesque habitant morbi tristique senectus et netus et. Magna
-          ac placerat vestibulum lectus mauris ultrices eros in. Id volutpat
-          lacus laoreet non curabitur gravida arcu. Sed euismod nisi porta lorem
-          mollis aliquam. Donec enim diam vulputate ut. Sed viverra tellus in
-          hac habitasse platea dictumst.
+          Autotrader19 is a platform where you can add cryptocurrency pairs and
+          enable the server to automatically communicate with the Binance API to
+          perform automated buying and selling. In addition to the server
+          component, there is also a mobile application that allows you to
+          control the pairs. You can add the cryptocurrency pairs you want to
+          track or trade on the platform. For example, you can list pairs such
+          as BTC/USDT, ETH/BTC. The automated buying and selling algorithm
+          running on the server can automatically execute trades on the Binance
+          exchange based on the cryptocurrency pairs you specify. This allows
+          for trading based on market fluctuations. Using the mobile application
+          provided by Autotrader19, you can control the cryptocurrency pairs you
+          have added and the automated trading strategies. With this
+          application, you can monitor the market conditions, adjust trading
+          strategies, and modify your pairs when necessary.
         </MobileProject>
       </PagePadding>
     </section>

@@ -15,9 +15,9 @@ export default function GetInTouchSection() {
             Get in Touch
           </SectionHeader>
           <PrimaryParagraph className={styles.text}>
-            Although I’m not currently looking for any new opportunities, my
-            inbox is always open. Whether you have a question or just want to
-            say hi, I’ll try my best to get back to you!
+            I would be delighted to connect with you and discuss potential
+            collaboration or project opportunities. I look forward to hearing
+            from you!
           </PrimaryParagraph>
           <LinkButtonPrimary href={"mailto:tahasokmen222@gmail.com"}>
             Say Hello
