@@ -345,21 +345,21 @@ export default function UnityProjectsPage() {
         <VerticalSeperator></VerticalSeperator>
 
         <MobileProject
-          headerText={"Fix-it"}
+          headerText={"Fix it"}
           imageData={[
             { path: fixit1, caption: "Broken glass" },
             { path: fixit2, caption: "Broken remote" },
             { path: fixit3, caption: "Repair me bubble" },
           ]}
         >
-          Fix It: Fix It is a game that puts you in the role of a skilled repair
-          person. Are you ready to take on the challenge of fixing broken items
-          around the house? You can put your handyman skills to the test and
-          restore the items to their former glory. Step into the room and
-          carefully examine the surroundings to locate the broken items. Each
-          item will have specific points that need repair. Grab your virtual
-          glue and apply it precisely to the broken parts of the items, ensuring
-          a strong bond and seamless restoration.
+          Fix It is a game that puts you in the role of a skilled repair person.
+          Are you ready to take on the challenge of fixing broken items around
+          the house? You can put your handyman skills to the test and restore
+          the items to their former glory. Step into the room and carefully
+          examine the surroundings to locate the broken items. Each item will
+          have specific points that need repair. Grab your virtual glue and
+          apply it precisely to the broken parts of the items, ensuring a strong
+          bond and seamless restoration.
         </MobileProject>
         <VerticalSeperator></VerticalSeperator>
 
