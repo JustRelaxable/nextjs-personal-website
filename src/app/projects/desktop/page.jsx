@@ -27,7 +27,7 @@ export default function DesktopProjectsPage() {
             { path: simple3, caption: "Chatting" },
           ]}
         >
-          The "SimpleChat" is a chat application developed with the aim of
+          The SimpleChat is a chat application developed with the aim of
           creating a secure chatting platform for a company's employees. The
           solution consists of three core projects: a client-side desktop
           application, a server-side console application, and web services API

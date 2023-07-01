@@ -112,7 +112,7 @@ export default function UnityProjectsPage() {
             { path: sand3, caption: "Gameplay screen" },
           ]}
         >
-          "Sand Wars" is a captivating mobile card game that offers both
+          Sand Wars is a captivating mobile card game that offers both
           singleplayer and multiplayer adventures. As players battle their way
           across the coast, they must strategically build their deck by
           collecting powerful cards and utilizing three unique resources. With a
@@ -121,7 +121,7 @@ export default function UnityProjectsPage() {
           of the island. The game features an engaging and free-to-play
           experience, stunning graphics, real-time multiplayer duels, and an
           array of surprises including dragons and various attacks. By upgrading
-          their resources, players unlock new powers. "Sand Wars" provides an
+          their resources, players unlock new powers. Sand Wars provides an
           immersive card-based combat experience that challenges players to
           adapt to different strategies and emerge victorious.
         </DesktopProject>
@@ -138,12 +138,12 @@ export default function UnityProjectsPage() {
             { path: night5, caption: "Decal showcase" },
           ]}
         >
-          "Night City Endless Drive" is an immersive car simulation game
+          Night City Endless Drive is an immersive car simulation game
           specifically designed for Android devices. Its primary objective is to
           provide players with a relaxing and enjoyable experience as they
           cruise along the long roads of the Night City. With a focus on
           creating a serene atmosphere, players can sit back, unwind, and embark
-          on a journey through the city. "Night City Endless Drive" promises to
+          on a journey through the city. Night City Endless Drive promises to
           provide players with a serene and engaging journey through a
           captivating virtual city. So, fasten your seatbelts, relax, and get
           ready for an unforgettable drive through the captivating Night City
@@ -161,15 +161,15 @@ export default function UnityProjectsPage() {
             { path: airport4, caption: "Rejected animation" },
           ]}
         >
-          "Airport Check" is an immersive airport security control simulation
-          game exclusively designed for Android devices. Its core objective is
-          to provide players with a realistic experience of checking and
-          confirming passports of passengers. Prepare to join the queue and
-          ensure your passports are ready as we embark on an exciting journey
-          together. "Airport Check" promises an engaging simulation of airport
-          security control. So, join the line, have your passports ready, and
-          prepare for an exciting journey as you fulfill the important role of
-          an airport security officer.
+          Airport Check is an immersive airport security control simulation game
+          exclusively designed for Android devices. Its core objective is to
+          provide players with a realistic experience of checking and confirming
+          passports of passengers. Prepare to join the queue and ensure your
+          passports are ready as we embark on an exciting journey together.
+          Airport Check promises an engaging simulation of airport security
+          control. So, join the line, have your passports ready, and prepare for
+          an exciting journey as you fulfill the important role of an airport
+          security officer.
         </MobileProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -182,7 +182,7 @@ export default function UnityProjectsPage() {
             { path: rescue3, caption: "Rescuing drowning people" },
           ]}
         >
-          "Rescue Boat" is an immersive simulated boat rescue game that puts
+          Rescue Boat is an immersive simulated boat rescue game that puts
           players in the role of rescue boat pilots on the vast sea. Your
           mission is to navigate through the treacherous waters and save
           individuals who have fallen overboard. As you embark on this
@@ -203,15 +203,15 @@ export default function UnityProjectsPage() {
             { path: goal3, caption: "Collecting money" },
           ]}
         >
-          "Goal'em All" is an action-packed game where your ultimate objective
-          is to defeat every opponent in your path using your soccer ball
-          skills. Get ready to showcase your ball control and precision as you
-          take on challengers from all directions. To maximize your chances of
-          success, aim to strike the barrels scattered throughout the game.
-          These barrels hold valuable currency that can be used to enhance your
-          gameplay experience. By collecting money from hitting the barrels, you
-          can unlock upgrades, power-ups, and other exciting features to aid you
-          in your quest for victory.
+          Goal'em All is an action-packed game where your ultimate objective is
+          to defeat every opponent in your path using your soccer ball skills.
+          Get ready to showcase your ball control and precision as you take on
+          challengers from all directions. To maximize your chances of success,
+          aim to strike the barrels scattered throughout the game. These barrels
+          hold valuable currency that can be used to enhance your gameplay
+          experience. By collecting money from hitting the barrels, you can
+          unlock upgrades, power-ups, and other exciting features to aid you in
+          your quest for victory.
         </MobileProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -226,14 +226,14 @@ export default function UnityProjectsPage() {
             { path: clonez5, caption: "Main menu screen" },
           ]}
         >
-          "Clonez" is an immersive 3D desktop platform puzzle game that
-          challenges players to navigate through intricate levels using the
-          unique ability of our ninja protagonist to clone himself. Prepare to
-          embark on a mind-bending adventure as you strategically utilize the
-          power of cloning to overcome various obstacles and conquer each level.
-          With the ability to create clones, you can solve complex puzzles,
-          activate switches, reach distant platforms, and navigate treacherous
-          paths that would be otherwise impossible to traverse alone.
+          Clonez is an immersive 3D desktop platform puzzle game that challenges
+          players to navigate through intricate levels using the unique ability
+          of our ninja protagonist to clone himself. Prepare to embark on a
+          mind-bending adventure as you strategically utilize the power of
+          cloning to overcome various obstacles and conquer each level. With the
+          ability to create clones, you can solve complex puzzles, activate
+          switches, reach distant platforms, and navigate treacherous paths that
+          would be otherwise impossible to traverse alone.
         </DesktopProject>
 
         <VerticalSeperator></VerticalSeperator>
@@ -246,7 +246,7 @@ export default function UnityProjectsPage() {
             { path: hunt3, caption: "Hunting pig" },
           ]}
         >
-          "VR Hunt" offers an exhilarating virtual reality experience where
+          VR Hunt offers an exhilarating virtual reality experience where
           players can immerse themselves in the thrill of shotgun shooting.
           Whether you're honing your skills or challenging your friends, this
           shotgun sports game has something for everyone. The game provides a
@@ -268,7 +268,7 @@ export default function UnityProjectsPage() {
             { path: gos4, caption: "Vizier stats screen" },
           ]}
         >
-          The "Calculator App for Game of Sultans" is a handy tool designed to
+          The Calculator App for Game of Sultans is a handy tool designed to
           enhance your gameplay experience in the popular mobile game. With a
           range of useful features, this app is your ultimate companion for
           managing resources, optimizing strategies, and maximizing your success
@@ -291,13 +291,13 @@ export default function UnityProjectsPage() {
             { path: pull3, caption: "Pulling the paper" },
           ]}
         >
-          "Paper Pull" is an engaging and thrilling game inspired by popular
+          Paper Pull is an engaging and thrilling game inspired by popular
           TikTok challenges. The objective is simple: unroll the toilet paper
           across a table, place a cup of water on the last sheet, and face off
           against an opponent sitting on the opposite side. Holding the roll,
           each player must carefully reel in the toilet paper without spilling
           the water. The first player to successfully complete this task emerges
-          as the victorious winner. "Paper Pull" offers a fun and interactive
+          as the victorious winner. Paper Pull offers a fun and interactive
           challenge suitable for players of all ages.
         </MobileProject>
 
@@ -312,12 +312,12 @@ export default function UnityProjectsPage() {
             { path: awakening4, caption: "Prototype clan wars screen" },
           ]}
         >
-          "The Awakening" is the culmination of over a year's worth of dedicated
+          The Awakening is the culmination of over a year's worth of dedicated
           work, resulting in an immersive mobile multiplayer idle game. Designed
           with a client-server based structure, this project draws inspiration
-          from popular web-based games such as "Darkorbit," "Ikariam," and
-          Facebook farming games. However, it aims to provide a simplified and
-          easily understandable gameplay experience suitable for mobile devices.
+          from popular web-based games such as Darkorbit, Ikariam, and Facebook
+          farming games. However, it aims to provide a simplified and easily
+          understandable gameplay experience suitable for mobile devices.
         </MobileProject>
         <VerticalSeperator></VerticalSeperator>
 
@@ -329,7 +329,7 @@ export default function UnityProjectsPage() {
             { path: cryto3, caption: "Collecting bitcoins" },
           ]}
         >
-          "Crypto Run" is an immersive mobile game that grants you the chance to
+          Crypto Run is an immersive mobile game that grants you the chance to
           unleash your skills and talents while exploring the intricate realm of
           digital currencies. Prepare yourself for an exciting adventure where
           you'll become a master of crypto trading, acquiring the ability to
@@ -350,10 +350,10 @@ export default function UnityProjectsPage() {
             { path: fixit3, caption: "Repair me bubble" },
           ]}
         >
-          Fix It: "Fix It" is a game that puts you in the role of a skilled
-          repair person. Are you ready to take on the challenge of fixing broken
-          items around the house? You can put your handyman skills to the test
-          and restore the items to their former glory. Step into the room and
+          Fix It: Fix It is a game that puts you in the role of a skilled repair
+          person. Are you ready to take on the challenge of fixing broken items
+          around the house? You can put your handyman skills to the test and
+          restore the items to their former glory. Step into the room and
           carefully examine the surroundings to locate the broken items. Each
           item will have specific points that need repair. Grab your virtual
           glue and apply it precisely to the broken parts of the items, ensuring
@@ -368,7 +368,7 @@ export default function UnityProjectsPage() {
             { path: flappy2, caption: "Gameplay screen" },
           ]}
         >
-          "Flappy Bird Remake" brings back the addictive gameplay and nostalgic
+          Flappy Bird Remake brings back the addictive gameplay and nostalgic
           charm of the classic mobile game. Get ready to test your reflexes and
           embark on an exhilarating journey through challenging obstacles. In
           this remake of the beloved game, you'll guide a bird through a series
@@ -387,13 +387,13 @@ export default function UnityProjectsPage() {
             { path: twisted2, caption: "Collecting insanity orbs" },
           ]}
         >
-          "Twisted Dungeon" invites you to embark on a captivating adventure in
-          a 2D puzzle game. Assume the role of a charming ghost as you navigate
+          Twisted Dungeon invites you to embark on a captivating adventure in a
+          2D puzzle game. Assume the role of a charming ghost as you navigate
           through intricate mazes, collecting valuable orbs along the way.
           However, beware, for failing to gather orbs will cause the controls to
           reverse, presenting a delightful challenge that will test your skills
           and strategic thinking. With its endearing graphics and immersive
-          gameplay, "Twisted Dungeon" provides a delightful and engaging
+          gameplay, Twisted Dungeon provides a delightful and engaging
           experience. Each level requires careful planning and precise execution
           to successfully navigate the maze and secure the orbs. As the controls
           reverse, you'll need to adapt your thinking and approach, adding an

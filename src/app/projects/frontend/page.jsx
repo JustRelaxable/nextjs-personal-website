@@ -51,8 +51,8 @@ export default function FrontendProjectsPage() {
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
-          "Movies to Watch" is a website designed to help users create and
-          manage a personal library of movies. The website integrates with a
+          Movies to Watch is a website designed to help users create and manage
+          a personal library of movies. The website integrates with a
           comprehensive movie database, such as IMDb, to provide a wide range of
           movies for users to choose from when adding to their library. Users
           can search for specific movies by title. Each movie entry in the
@@ -78,9 +78,9 @@ export default function FrontendProjectsPage() {
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
-          The "NASA Astronomy Picture of the Day" website is a platform that
+          The NASA Astronomy Picture of the Day website is a platform that
           showcases a different astronomy-related image or photograph every day,
-          selected by NASA. By clicking the "Another Random Event!" button, the
+          selected by NASA. By clicking the Another Random Event! button, the
           website generates a random date and event, allowing users to explore
           pictures from various days in history. This feature adds an element of
           surprise and discovery to the browsing experience. Users can input a
@@ -113,7 +113,7 @@ export default function FrontendProjectsPage() {
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
-          The "Sticker Shop" is an online platform that offers a collection of
+          The Sticker Shop is an online platform that offers a collection of
           stickers and digital patterns for potential buyers. The website has a
           catalog/gallery where users can browse through various stickers and
           digital patterns available for purchase. These items may be organized
@@ -145,7 +145,7 @@ export default function FrontendProjectsPage() {
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
         >
-          The "Moria Health Tourism" is a health tourism website focuses on
+          The Moria Health Tourism is a health tourism website focuses on
           providing information and promoting various medical tourism services
           and destinations. The website's homepage serves as an introduction and
           provides an overview of the services and destinations offered. It
