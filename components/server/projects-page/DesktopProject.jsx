@@ -1,13 +1,19 @@
 import ProjectDescription from "./ProjectDescription";
 import ImageShowcase from "../../client/ImageShowcase";
+import ProjectInfo from "./ProjectInfo";
 
-export default function DesktopProject({ imageData, headerText, children }) {
+export default function DesktopProject({
+  imageData,
+  headerText,
+  children,
+  projectUrl,
+}) {
   return (
     <div>
       <ImageShowcase imageData={imageData}></ImageShowcase>
-      <ProjectDescription headerText={headerText}>
+      <ProjectInfo headerText={headerText} projectUrl={projectUrl}>
         {children}
-      </ProjectDescription>
+      </ProjectInfo>
     </div>
   );
 }

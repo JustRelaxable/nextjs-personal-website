@@ -50,6 +50,7 @@ export default function FrontendProjectsPage() {
             { path: movies5, caption: "Page 2" },
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
+          projectUrl={"https://moviestowatch.vercel.app"}
         >
           Movies to Watch is a website designed to help users create and manage
           a personal library of movies. The website integrates with a
@@ -77,6 +78,7 @@ export default function FrontendProjectsPage() {
             { path: nasa5, caption: "Requesting another random event" },
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
+          projectUrl={"https://nasa-astronomy-picture-of-the-day.vercel.app"}
         >
           The NASA Astronomy Picture of the Day website is a platform that
           showcases a different astronomy-related image or photograph every day,
@@ -112,6 +114,7 @@ export default function FrontendProjectsPage() {
             { path: sticker6, caption: "Mobile menu screen" },
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
+          projectUrl={"https://inkheartedcreations.vercel.app/"}
         >
           The Sticker Shop is an online platform that offers a collection of
           stickers and digital patterns for potential buyers. The website has a
