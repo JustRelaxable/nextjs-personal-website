@@ -14,6 +14,7 @@
 
 .urlHeader {
   text-decoration-color: var(--color-primary);
+  text-decoration-thickness: 3px;
 }
 
 @media screen and (max-width: 1100px) {
