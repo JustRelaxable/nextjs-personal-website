@@ -58,7 +58,19 @@ export default function ImageShowcase({
           style={{ translate: `${-imageIndex * 100}%` }}
         >
           {imageData.map((o, i) => {
-            return (
+            return o.isVideo ? (
+              <video
+                autoPlay
+                muted
+                loop
+                style={{
+                  width: "100%",
+                  left: `${i * 100}%`,
+                }}
+              >
+                <source src={o.path} type="video/webm"></source>
+              </video>
+            ) : (
               <Image
                 key={o.path.src}
                 src={o.path}

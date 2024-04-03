@@ -77,11 +77,55 @@ import ProjectDescription from "../../../../components/server/projects-page/Proj
 import VerticalSeperator from "../../../../components/server/layout/VerticalSeperator";
 import DesktopProject from "../../../../components/server/projects-page/DesktopProject";
 import MobileProject from "../../../../components/server/projects-page/MobileProject";
+
 export default function UnityProjectsPage() {
   return (
     <section className={styles.background}>
       <PagePadding>
         <SectionHeader doubleSideSeperator={true}>Unity Projects</SectionHeader>
+        <DesktopProject
+          headerText={"PGWarfare"}
+          imageData={[
+            {
+              path: "/project-screenshots/unity/pgwarfare/pistol-shootingrange.webm",
+              caption: "Pistol Shooting Range",
+              isVideo: true,
+            },
+            {
+              path: "/project-screenshots/unity/pgwarfare/main-character.webm",
+              caption: "Main Character",
+              isVideo: true,
+            },
+            {
+              path: "/project-screenshots/unity/pgwarfare/pistol-walk.webm",
+              caption: "Pistol Walk",
+              isVideo: true,
+            },
+            {
+              path: "/project-screenshots/unity/pgwarfare/ak47-shooting-range.webm",
+              caption: "AK47 Shooting Range",
+              isVideo: true,
+            },
+            {
+              path: "/project-screenshots/unity/pgwarfare/ai-bot-shooting.webm",
+              caption: "AI Bot Shooting",
+              isVideo: true,
+            },
+            {
+              path: "/project-screenshots/unity/pgwarfare/character-overlay-speaking.webm",
+              caption: "Character Overlay Speaking",
+              isVideo: true,
+            },
+            {
+              path: "/project-screenshots/unity/pgwarfare/m4a1-test-shooting.webm",
+              caption: "M4A1 Test Shooting",
+              isVideo: true,
+            },
+          ]}
+        >
+          This is a prototype TPS mobile shooter. Still work in progress.
+        </DesktopProject>
+        <VerticalSeperator></VerticalSeperator>
         <DesktopProject
           headerText={"Emily's Adventures"}
           imageData={[
