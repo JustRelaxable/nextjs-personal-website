@@ -138,6 +138,9 @@ export default function UnityProjectsPage() {
             { path: emily7, caption: "Golf level windmill" },
             { path: emily8, caption: "Emily's forest" },
           ]}
+          projectUrl={
+            "https://github.com/JustRelaxable/The-Adventures-Of-Emily"
+          }
         >
           The Adventures of Emily is a 3rd person adventure-puzzle game mainly
           inspired by the classic bedtime stories for children. In The
@@ -155,6 +158,7 @@ export default function UnityProjectsPage() {
             { path: sand2, caption: "Gameplay screen" },
             { path: sand3, caption: "Gameplay screen" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Sand-Castle-Wars"}
         >
           Sand Wars is a captivating mobile card game that offers both
           singleplayer and multiplayer adventures. As players battle their way
@@ -182,6 +186,9 @@ export default function UnityProjectsPage() {
             { path: night4, caption: "Mobile gameplay screen" },
             { path: night5, caption: "Decal showcase" },
           ]}
+          projectUrl={
+            "https://github.com/JustRelaxable/Night-City-Endless-Drive"
+          }
         >
           Night City Endless Drive is an immersive car simulation game
           specifically designed for Android devices. Its primary objective is to
@@ -205,6 +212,7 @@ export default function UnityProjectsPage() {
             { path: airport3, caption: "Accepted animation" },
             { path: airport4, caption: "Rejected animation" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Airport-Check"}
         >
           Airport Check is an immersive airport security control simulation game
           exclusively designed for Android devices. Its core objective is to
@@ -226,6 +234,7 @@ export default function UnityProjectsPage() {
             { path: rescue2, caption: "Jumping from platform" },
             { path: rescue3, caption: "Rescuing drowning people" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Rescue-Boat"}
         >
           Rescue Boat is an immersive simulated boat rescue game that puts
           players in the role of rescue boat pilots on the vast sea. Your
@@ -247,6 +256,7 @@ export default function UnityProjectsPage() {
             { path: goal2, caption: "Explosion effects" },
             { path: goal3, caption: "Collecting money" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Goal-em-All"}
         >
           Goal&apos;em All is an action-packed game where your ultimate
           objective is to defeat every opponent in your path using your soccer
@@ -270,6 +280,7 @@ export default function UnityProjectsPage() {
             { path: clonez4, caption: "Tutorial level" },
             { path: clonez5, caption: "Main menu screen" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Clonez"}
         >
           Clonez is an immersive 3D desktop platform puzzle game that challenges
           players to navigate through intricate levels using the unique ability
@@ -290,6 +301,7 @@ export default function UnityProjectsPage() {
             { path: hunt2, caption: "Hunting cow" },
             { path: hunt3, caption: "Hunting pig" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/VRShooter"}
         >
           VR Hunt offers an exhilarating virtual reality experience where
           players can immerse themselves in the thrill of shotgun shooting.
@@ -312,6 +324,7 @@ export default function UnityProjectsPage() {
             { path: gos3, caption: "Vizier stats screen" },
             { path: gos4, caption: "Vizier stats screen" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/GOS-Vizier-Calculator"}
         >
           The Calculator App for Game of Sultans is a handy tool designed to
           enhance your gameplay experience in the popular mobile game. With a
@@ -335,6 +348,7 @@ export default function UnityProjectsPage() {
             { path: pull2, caption: "Paper tear" },
             { path: pull3, caption: "Pulling the paper" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Paper-Pull"}
         >
           Paper Pull is an engaging and thrilling game inspired by popular
           TikTok challenges. The objective is simple: unroll the toilet paper
@@ -356,6 +370,7 @@ export default function UnityProjectsPage() {
             { path: awakening3, caption: "Town screen" },
             { path: awakening4, caption: "Prototype clan wars screen" },
           ]}
+          projectUrl={"https://justrelaxable.itch.io/the-awakening"}
         >
           The Awakening is the culmination of over a year&apos;s worth of
           dedicated work, resulting in an immersive mobile multiplayer idle
@@ -374,6 +389,7 @@ export default function UnityProjectsPage() {
             { path: cryto2, caption: "Finish multiplier screen" },
             { path: cryto3, caption: "Collecting bitcoins" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Crypto-Run"}
         >
           Crypto Run is an immersive mobile game that grants you the chance to
           unleash your skills and talents while exploring the intricate realm of
@@ -395,6 +411,7 @@ export default function UnityProjectsPage() {
             { path: fixit2, caption: "Broken remote" },
             { path: fixit3, caption: "Repair me bubble" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/Fix-It"}
         >
           Fix It is a game that puts you in the role of a skilled repair person.
           Are you ready to take on the challenge of fixing broken items around
@@ -413,6 +430,7 @@ export default function UnityProjectsPage() {
             { path: flappy1, caption: "Gameplay screen" },
             { path: flappy2, caption: "Gameplay screen" },
           ]}
+          projectUrl={"https://justrelaxable.itch.io/flappy-bird-remix"}
         >
           Flappy Bird Remake brings back the addictive gameplay and nostalgic
           charm of the classic mobile game. Get ready to test your reflexes and
@@ -432,6 +450,7 @@ export default function UnityProjectsPage() {
             { path: twisted1, caption: "Boss fight" },
             { path: twisted2, caption: "Collecting insanity orbs" },
           ]}
+          projectUrl={"https://justrelaxable.itch.io/twisted-dungeons"}
         >
           Twisted Dungeon invites you to embark on a captivating adventure in a
           2D puzzle game. Assume the role of a charming ghost as you navigate

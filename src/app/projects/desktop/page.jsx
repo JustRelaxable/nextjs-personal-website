@@ -26,6 +26,7 @@ export default function DesktopProjectsPage() {
             { path: simple2, caption: "Chat page" },
             { path: simple3, caption: "Chatting" },
           ]}
+          projectUrl={"https://github.com/JustRelaxable/SimpleChat"}
         >
           The SimpleChat is a chat application developed with the aim of
           creating a secure chatting platform for a company&apos;s employees.

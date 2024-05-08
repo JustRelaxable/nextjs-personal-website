@@ -27,6 +27,14 @@ import moria2 from "../../../../public/project-screenshots/frontend/moria-health
 import moria3 from "../../../../public/project-screenshots/frontend/moria-health-tourism/moria-3.png";
 import moria4 from "../../../../public/project-screenshots/frontend/moria-health-tourism/moria-4.png";
 
+import ttbet1 from "../../../../public/project-screenshots/frontend/ttbet/ttbet-1.png";
+import ttbet2 from "../../../../public/project-screenshots/frontend/ttbet/ttbet-2.png";
+import ttbet3 from "../../../../public/project-screenshots/frontend/ttbet/ttbet-3.png";
+import ttbet4 from "../../../../public/project-screenshots/frontend/ttbet/ttbet-4.png";
+import ttbet5 from "../../../../public/project-screenshots/frontend/ttbet/ttbet-5.png";
+
+import DesktopProject from "../../../../components/server/projects-page/DesktopProject";
+
 export default function FrontendProjectsPage() {
   return (
     <section>
@@ -146,6 +154,7 @@ export default function FrontendProjectsPage() {
             },
           ]}
           customAspectRatio={{ aspectRatio: 778 / 1534 }}
+          projectUrl={"https://flourishing-pixie-0bc478.netlify.app/"}
         >
           The Moria Health Tourism is a health tourism website focuses on
           providing information and promoting various medical tourism services
@@ -158,6 +167,37 @@ export default function FrontendProjectsPage() {
           booking process. This includes a contact form, phone numbers, email
           addresses.
         </MobileProject>
+        <VerticalSeperator></VerticalSeperator>
+        <DesktopProject
+          headerText={"TTBet Türkiye"}
+          imageData={[
+            {
+              path: ttbet1,
+              caption: "Main page",
+            },
+            {
+              path: ttbet2,
+              caption: "Latest matches",
+            },
+            {
+              path: ttbet3,
+              caption: "Info about the app & Reference system",
+            },
+            {
+              path: ttbet4,
+              caption: "Example bet",
+            },
+            {
+              path: ttbet5,
+              caption: "Connected wallet info",
+            },
+          ]}
+          projectUrl={
+            "https://bafybeieqcezxzliyiuw7gev7xrnoxw7lqeycn7chz53wx3r5dzc27jrxqa.ipfs.dweb.link/"
+          }
+        >
+          Harmony chain based gamble application with smart contracts.
+        </DesktopProject>
       </PagePadding>
     </section>
   );
