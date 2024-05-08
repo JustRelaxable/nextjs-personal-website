@@ -10,7 +10,6 @@
 }
 
 .imageShowcaseControlContainer {
-  aspect-ratio: 333/589;
 }
 
 @media screen and (max-width: 930px) {
@@ -31,6 +30,6 @@
 
 @media screen and (max-width: 460px) {
   .imageShowcaseContainer {
-    width: 100%;
+    width: 80%;
   }
 }

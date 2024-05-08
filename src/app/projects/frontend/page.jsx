@@ -49,7 +49,6 @@ export default function FrontendProjectsPage() {
             },
             { path: movies5, caption: "Page 2" },
           ]}
-          customAspectRatio={{ aspectRatio: 778 / 1534 }}
           projectUrl={"https://moviestowatch.vercel.app"}
         >
           Movies to Watch is a website designed to help users create and manage

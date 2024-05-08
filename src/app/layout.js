@@ -5,7 +5,7 @@ import SideLinks from "../../components/server/sidelinks/SideLinks";
 import "./globals.css";
 import { Inter, Rubik } from "next/font/google";
 
-const inter = Rubik({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: "Taha Sokmen - Personal Website",
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={rubik.className}>
         <Navbar></Navbar>
         <SideLinks></SideLinks>
         {children}

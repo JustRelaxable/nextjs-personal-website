@@ -7,7 +7,6 @@ export default function ImageShowcase({
   imageData,
   containerClass,
   controlContainerClass,
-  customAspectRatio,
 }) {
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -23,10 +22,7 @@ export default function ImageShowcase({
 
   return (
     <div className={`${styles.container} ${containerClass}`}>
-      <div
-        className={`${styles.controlContainer} ${controlContainerClass}`}
-        style={customAspectRatio}
-      >
+      <div className={`${styles.controlContainer} ${controlContainerClass}`}>
         <button
           className={`${styles.arrow} ${styles.left}`}
           onClick={previousImage}
@@ -61,6 +57,7 @@ export default function ImageShowcase({
             return o.isVideo ? (
               <video
                 autoPlay
+                playsInline
                 muted
                 loop
                 style={{
@@ -77,9 +74,9 @@ export default function ImageShowcase({
                 alt={o.caption}
                 style={{
                   width: "100%",
-                  height: "100%",
+                  height: "auto",
                   objectFit: "cover",
-                  left: `${i * 100}%`,
+                  flex: "0 0 100%",
                 }}
                 placeholder="blur"
               ></Image>

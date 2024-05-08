@@ -8,7 +8,6 @@ export default function MobileProject({
   imageData,
   headerText,
   children,
-  customAspectRatio,
   projectUrl,
 }) {
   return (
@@ -17,7 +16,6 @@ export default function MobileProject({
         imageData={imageData}
         containerClass={styles.imageShowcaseContainer}
         controlContainerClass={styles.imageShowcaseControlContainer}
-        customAspectRatio={customAspectRatio}
       ></ImageShowcase>
       <ProjectInfo projectUrl={projectUrl} headerText={headerText}>
         {children}
