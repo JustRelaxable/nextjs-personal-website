@@ -11,6 +11,13 @@ import turktvbox3 from "../../../../public/project-screenshots/mobile/turktvbox/
 import turktvbox4 from "../../../../public/project-screenshots/mobile/turktvbox/turktvbox-4.jpg";
 import turktvbox5 from "../../../../public/project-screenshots/mobile/turktvbox/turktvbox-5.jpg";
 
+import makas1 from "../../../../public/project-screenshots/mobile/makas/makas-1.jpg";
+import makas2 from "../../../../public/project-screenshots/mobile/makas/makas-2.jpg";
+import makas3 from "../../../../public/project-screenshots/mobile/makas/makas-3.jpg";
+import makas4 from "../../../../public/project-screenshots/mobile/makas/makas-4.jpg";
+import makas5 from "../../../../public/project-screenshots/mobile/makas/makas-5.jpg";
+import makas6 from "../../../../public/project-screenshots/mobile/makas/makas-6.jpg";
+
 export default function MobileProjectsPage() {
   return (
     <section>
@@ -72,6 +79,44 @@ export default function MobileProjectsPage() {
           TurkTvBox is a video streaming app with the functionality to save
           where you left off. It scrapes the data from configurable sources. It
           is coded with kotlin and UI with Jetpack Compose.
+        </MobileProject>
+        <VerticalSeperator></VerticalSeperator>
+        <MobileProject
+          headerText={"Makas"}
+          imageData={[
+            {
+              path: makas1,
+              caption: "Main screen with shop stories and selected products",
+            },
+            {
+              path: makas2,
+              caption:
+                "Product screen - details and photos generated with Faker.js",
+            },
+            {
+              path: makas3,
+              caption: "Product screen",
+            },
+            {
+              path: makas4,
+              caption: "User favourited items screen",
+            },
+            {
+              path: makas5,
+              caption: "User favourited shops screen",
+            },
+            {
+              path: makas6,
+              caption: "Image cropping screen for sellers",
+            },
+          ]}
+          projectUrl={"https://www.instagram.com/makasapptr/"}
+        >
+          Makas is an e-commerce application for hand made items. Basically it
+          is Etsy clone with added more interaction between customers and
+          sellers. Backend developed with GraphQL and PostgreSQL. For the
+          frontend it uses React Native. Still work in progress so most of the
+          screens are missing.
         </MobileProject>
       </PagePadding>
     </section>
